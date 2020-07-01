@@ -1,0 +1,1 @@
+# schema-stitched-client-side
