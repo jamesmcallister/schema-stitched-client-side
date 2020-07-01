@@ -1,0 +1,49 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "plugins": ["graphql", "react", "react-hooks", "prettier"],
+  "rules": {
+    "camelcase": 0,
+    "consistent-return": "off",
+    "import/no-default-export": "warn",
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "no-console": 0,
+    "no-debugger": 0,
+    "no-else-return": "warn",
+    "no-nested-ternary": "warn",
+    "no-shadow": "off",
+    "prettier/prettier": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/destructuring-assignment": "off",
+    "react/display-name": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-boolean-value": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "no-underscore-dangle": "off",
+    "array-callback-return": "off",
+    "no-useless-escape": "off"
+  }
+}
